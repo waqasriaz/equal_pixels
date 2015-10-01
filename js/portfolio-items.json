@@ -1,0 +1,134 @@
+[
+    {
+        "title": "Hank",
+        "projectType": "Blog Design",
+        "thumbURL": "img/portfolio/thumbs/hank.jpg",
+        "categories": ["design"],
+        "skills": ["Web design", " Photoshop"],
+        "buttonURL": "",
+        "type": "static",
+        "staticImage": "img/portfolio/screenshots/Hank.jpg"
+    },
+    {
+        "title": "Muller",
+        "projectType": "Blog Design",
+        "thumbURL": "img/portfolio/thumbs/muller.jpg",
+        "categories": ["design"],
+        "skills": ["Web design", " Photoshop"],
+        "buttonURL": "",
+        "type": "static",
+        "staticImage": "img/portfolio/screenshots/Muller.jpg"
+    },
+    {
+        "title": "Wyndham Grand",
+        "projectType": "Hotel Site Design",
+        "thumbURL": "img/portfolio/thumbs/hotel.jpg",
+        "categories": ["design"],
+        "skills": ["Web design", " Photoshop"],
+        "buttonURL": "",
+        "type": "static",
+        "staticImage": "img/portfolio/screenshots/Hotel.jpg"
+    },
+    {
+        "title": "Upstart Musician",
+        "projectType": "Artist Agency Design",
+        "thumbURL": "img/portfolio/thumbs/upstart.jpg",
+        "categories": ["design"],
+        "skills": ["Web design", " Photoshop"],
+        "buttonURL": "",
+        "type": "static",
+        "staticImage": "img/portfolio/screenshots/UpStart_Musician.png"
+    },
+    {
+        "title": "Le Loft Canin",
+        "projectType": "Custom Dynamic Website",
+        "thumbURL": "img/portfolio/thumbs/loft-canin.jpg",
+        "categories": ["design", "web"],
+        "skills": ["Web design", " front-end development", " WordPress development", " PHP/MySQL"],
+        "buttonURL": "http://loftcanin.com/",
+        "type": "live",
+        "staticImage": ""
+    },
+        {
+        "title": "Dijkstra Jager",
+        "projectType": "Custom Dynamic Website",
+        "thumbURL": "img/portfolio/thumbs/dijkstra-jager.jpg",
+        "categories": ["web"],
+        "skills": ["Front-end development", " WordPress development", " PHP/MySQL"],
+        "buttonURL": "http://www.dijkstra-jager.nl/",
+        "type": "live",
+        "staticImage": ""
+    },
+        {
+        "title": "Greedly",
+        "projectType": "WordPress Theme",
+        "thumbURL": "img/portfolio/thumbs/greedly.jpg",
+        "categories": ["wordpress"],
+        "skills": [" PHP/MySQL", " WordPress development"],
+        "buttonURL": "http://themeforest.net/item/greedly-grid-based-responsive-wordpress-blog/full_screen_preview/9322590",
+        "type": "live"
+    },
+    {
+        "title": "Landlr",
+        "projectType": "WordPress Theme",
+        "thumbURL": "img/portfolio/thumbs/landlr.jpg",
+        "categories": ["wordpress"],
+        "skills": [" PHP/MySQL", " WordPress development"],
+        "buttonURL": "http://themeforest.net/item/landlr-the-allinone-landing-page-wordpress/full_screen_preview/6952895",
+        "type": "live"
+    },
+    {
+        "title": "Mokka",
+        "projectType": "WordPress Theme",
+        "thumbURL": "img/portfolio/thumbs/mokka.jpg",
+        "categories": ["wordpress"],
+        "skills": ["PHP/MySQL", " WordPress development"],
+        "buttonURL": "http://themeforest.net/item/mokka-minimal-elegant-wordpress-blog/full_screen_preview/8047638",
+        "type": "live"
+    },
+    {
+        "title": "Mono",
+        "projectType": "WordPress Theme",
+        "thumbURL": "img/portfolio/thumbs/mono.jpg",
+        "categories": ["wordpress"],
+        "skills": ["PHP/MySQL", " WordPress development"],
+        "buttonURL": "http://themeforest.net/item/mono-minimal-modern-and-grid-based-blog/full_screen_preview/8408424",
+        "type": "live"
+    },
+    {
+        "title": "Realto",
+        "projectType": "WordPress Theme",
+        "thumbURL": "img/portfolio/thumbs/realto.jpg",
+        "categories": ["wordpress"],
+        "skills": ["PHP/MySQL", " WordPress development"],
+        "buttonURL": "http://themeforest.net/item/realto-wordpress-theme-for-real-estate-companies/full_screen_preview/6801549",
+        "type": "live"
+    },
+    {
+        "title": "UnPress",
+        "projectType": "WordPress Theme",
+        "thumbURL": "img/portfolio/thumbs/unpress.jpg",
+        "categories": ["wordpress"],
+        "skills": ["PHP/MySQL", " WordPress development"],
+        "buttonURL": "http://themeforest.net/item/unpress-magazine-elegant-minimalistic-woocommerce/full_screen_preview/7630265",
+        "type": "live"
+    },
+    {
+        "title": "Riing",
+        "projectType": "iOS App",
+        "thumbURL": "img/portfolio/thumbs/mob1.jpg",
+        "categories": ["mobile"],
+        "skills": ["Mobile development", " iOS", " Swift"],
+        "buttonURL": "https://itunes.apple.com/us/app/riing!/id908447098?ls=1",
+        "type": "live"
+    },
+    {
+        "title": "Bundu Khan",
+        "projectType": "Android App",
+        "thumbURL": "img/portfolio/thumbs/mob3.jpg",
+        "categories": ["mobile"],
+        "skills": ["Mobile development", " Android", " Java"],
+        "buttonURL": "https://play.google.com/store/apps/details?id=com.bundukhan.app",
+        "type": "live"
+    }
+]

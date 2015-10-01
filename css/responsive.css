@@ -1,0 +1,262 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media screen and (max-width: 1408px) {
+    .verb {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1236px) {
+    .nav-container {
+        padding: 0 5% 0 5%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #header {
+        height: 960px;
+    }
+
+    header .container {
+        top: -815px;
+    }
+
+    #services button {
+        padding: 5px 0 5px 0;
+    }
+    
+    #bio .step-rect .content {
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 1236px) and (min-width: 992px) {
+    #portfolio .port-button {
+        font-size: 0.8em;
+        padding: 6px 0 6px 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #header {
+        height: 800px;
+    }
+
+    header .container {
+        top: -700px;
+    }
+
+    #services .container {
+        width: 100%;
+    }
+    
+    #services .serv2 .dh-overlay .row .btn {
+        width: 16%;
+        height: 41px;
+        font-size: 1.5em;
+        left: -42%;
+        padding: 2px;
+    }
+    
+
+    .process {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .progress {
+        height: 34px;
+        width: 100%;
+        margin: auto;
+    }
+
+    #portfolio .progress-bar {
+        padding-top: 11px;
+        line-height: 12px;
+    }
+
+    #portfolio .row {
+        width: 100%;
+    }
+
+
+
+}
+
+@media screen and (max-width: 914px){
+    .top-nav li:nth-child(1),
+    .top-nav li:nth-child(2),
+    .top-nav li:nth-child(4),
+    .top-nav li:nth-child(5){
+        display: none;
+    }
+
+    .top-nav {
+        min-height: 70px;
+    }
+
+    .top-nav li:nth-child(3) img {
+        margin: 0;
+    }
+
+    .top-nav li:nth-child(3) {
+        text-align: left;
+        float: left;
+    }
+
+    .top-nav li:nth-child(3) span {
+        display: none;
+    }
+
+    .nav-container {
+        padding: 0;
+    }
+
+    .nav > li > a {
+        padding: 10px 0 10px 0;
+    }
+
+    #menu-holder {
+        display: inline;
+        margin-top: 5px;
+    }
+
+    .step-rect {
+        width: 100% !important;
+        margin-top: 0;
+        padding: 22px 38px 0 38px !important;
+    }
+
+    .step-square {
+        display: none;
+    }
+
+    #contact:nth-child(10) {
+        display: block;
+    }
+
+    .contact-wrapper {
+        padding: 0;
+    }
+
+    footer .nav li {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #contact h3 {
+        margin: 15px 0 5px 0;
+        font-size: 1.4em;
+    }
+
+    .contact-item {
+        font-size: 0.9em;
+        text-align: left;
+        padding-left: 12%;
+    }
+
+
+    #message i {
+        width: 30px;
+    }
+
+    #message p {
+        margin: 4px 0 5px 0;
+    }
+
+    #contact .contact-wrapper {
+        min-height: 0;
+        height: auto;
+    }
+
+    #contact-info {
+        text-align: center;
+        padding: 0 20px 0 20px;
+    }
+
+    #contact .soc-links {
+        width: 177px;
+        margin: auto;
+    }
+
+
+    .testimonial {
+        width: 95%;
+    }
+
+    .author-name {
+        width: 100%;
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (max-width: 360px) {
+    #header {
+        height: 650px;
+    }
+
+    section {
+        padding: 0;
+    }
+
+    header .container {
+        top: -575px;
+    }
+
+    h1, h2 {
+        font-size: 2.2em;
+    }
+
+    h2 {
+        margin-bottom: 5px;
+    }
+
+    h5 {
+        font-size: 1.2em;    
+        margin: 5px auto 5px auto;
+    }
+
+    #bio h5 {
+        margin-bottom: -11px;
+    }
+
+    #skills-section h5 {
+        margin: 20px auto 10px auto;
+    }
+
+    .process {
+        margin-bottom: 0px;
+    }
+
+    #menu-holder button {
+        width: 30px;
+        height: 30px;
+        margin-top: 15px;
+    }
+
+    #menu-holder button i {
+        font-size: 0.5em;
+        transform: translate(0, -12.5px);
+    }
+
+
+    .header-buttons .btn {
+        padding: 9px 0 5px 0;
+        font-size: 1em;
+        width: 35%;
+        height: 40px;
+    }
+
+    #video {
+        margin: 0 auto 39px auto;
+    }
+    .author-name {
+        width: 75%;
+    }
+
+}

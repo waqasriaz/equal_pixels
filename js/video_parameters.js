@@ -1,0 +1,78 @@
+    FWDEVPUtils.onReady(function(){
+ 
+        FWDEVPlayer.useYoutube = "yes";
+        FWDEVPlayer.videoStartBehaviour = "pause";
+         
+        new FWDEVPlayer({       
+            //main settings
+            instanceName:"player1",
+            parentId:"video",
+            mainFolderPath:"content",
+            skinPath:"minimal_skin_dark",
+            displayType:"responsive",
+            autoScale:"yes",
+            facebookAppId:"213684265480896",
+            videoSourcePath:"https://s3-us-west-2.amazonaws.com/equalpixels.com/video/video.mp4",
+            posterPath:"img/placeholder.jpg",
+            rightClickContextMenu:"developer",
+            addKeyboardSupport:"yes",
+            autoPlay:"no",
+            loop:"no",
+            maxWidth:1280,
+            maxHeight:720,
+            volume:.8,
+            backgroundColor:"#000000",
+            posterBackgroundColor:"#3697dc",
+            //logo settings
+            showLogo:"no",
+            hideLogoWithController:"yes",
+            logoPosition:"topRight",
+            logoLink:"img/logo.png",
+            logoMargins:5,
+            //controller settings
+            showControllerWhenVideoIsStopped:"yes",
+            showVolumeScrubber:"yes",
+            showVolumeButton:"yes",
+            showTime:"yes",
+            showYoutubeQualityButton:"yes",
+            showFacebookButton:"yes",
+            showEmbedButton:"yes",
+            showFullScreenButton:"yes",
+            repeatBackground:"yes",
+            controllerHeight:41,
+            controllerHideDelay:3,
+            startSpaceBetweenButtons:7,
+            spaceBetweenButtons:9,
+            mainScrubberOffestTop:14,
+            scrubbersOffsetWidth:4,
+            timeOffsetLeftWidth:5,
+            timeOffsetRightWidth:3,
+            volumeScrubberWidth:80,
+            volumeScrubberOffsetRightWidth:0,
+            timeColor:"#777777",
+            youtubeQualityButtonNormalColor:"#777777",
+            youtubeQualityButtonSelectedColor:"#FFFFFF",
+            //embed window
+            embedWindowCloseButtonMargins:0,
+            borderColor:"#333333",
+            mainLabelsColor:"#FFFFFF",
+            secondaryLabelsColor:"#a1a1a1",
+            shareAndEmbedTextColor:"#5a5a5a",
+            inputBackgroundColor:"#000000",
+            inputColor:"#FFFFFF",
+            //ads
+            openNewPageAtTheEndOfTheAds:"no",
+            adsVideoSourcePath:"none",
+            adsButtonsPosition:"right",
+            adsPageToOpenURL:"http://www.webdesign-flash.ro",
+            adsPageToOpenTarget:"_blank",
+            adsThumbnailPath:"content/posters/thumbnail.jpg",
+            skipToVideoText:"You can skip to video in: ",
+            skipToVideoButtonText:"Skip Ad",
+            timeToHoldAds:4,
+            adsTextNormalColor:"#777777",
+            adsTextSelectedColor:"#FFFFFF",
+            adsBorderNormalColor:"#444444",
+            adsBorderSelectedColor:"#FFFFFF"
+        });             
+    });
