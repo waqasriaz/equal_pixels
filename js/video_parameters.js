@@ -1,6 +1,6 @@
     FWDEVPUtils.onReady(function(){
  
-        FWDEVPlayer.useYoutube = "yes";
+        FWDEVPlayer.useYoutube = "no";
         FWDEVPlayer.videoStartBehaviour = "pause";
          
         new FWDEVPlayer({       

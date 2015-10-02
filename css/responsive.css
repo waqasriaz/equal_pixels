@@ -26,7 +26,7 @@
     #services button {
         padding: 5px 0 5px 0;
     }
-    
+
     #bio .step-rect .content {
         padding-right: 15px;
     }
@@ -51,7 +51,7 @@
     #services .container {
         width: 100%;
     }
-    
+
     #services .serv2 .dh-overlay .row .btn {
         width: 16%;
         height: 41px;
@@ -59,7 +59,7 @@
         left: -42%;
         padding: 2px;
     }
-    
+
 
     .process {
         padding-left: 1%;
@@ -182,7 +182,12 @@
         margin: auto;
     }
 
-
+    #contact .contact-bottom {
+        position: relative;
+        top: -5px;
+        margin: 5px auto 5px auto;
+    }
+    
     .testimonial {
         width: 95%;
     }
