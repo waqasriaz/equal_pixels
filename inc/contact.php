@@ -72,6 +72,7 @@ $sum = $number1 + $number2;
             <!-- Tab panes -->
             <div class="tab-content">
                 <div role="tabpanel" class="tab-pane active" id="message">
+                    <form method="post" action="" role="form" class="text-right">
                     <div class="row">
                         <div class="col-sm-5 text-left" id="contact-info">
                             <h3>Contact info</h3>
@@ -100,7 +101,7 @@ $sum = $number1 + $number2;
                         <div class="col-sm-7 hidden-xs">
                             <div id="email_success"></div>
                             <h3 class="text-left">Send us a message</h3>
-                            <form method="post" action="" role="form" class="text-right">
+                            <!-- <form method="post" action="" role="form" class="text-right"> -->
                                 <input type="hidden" id="correctsum" name="correctsum" value="<?php echo $sum; ?>"/>
                                 <div class="form-group">
                                     <div class="input-group">
@@ -110,7 +111,7 @@ $sum = $number1 + $number2;
                                     </div>
 
                                 </div>
-                            </form>
+                            <!-- </form> -->
                         </div>
                     </div>
                                                         <div class="row contact-bottom">
@@ -148,6 +149,8 @@ $sum = $number1 + $number2;
                                             <button type="submit" class="btn btn-primary send">Send</button>
                                         </div>
                                     </div>
+                
+                </form>
                 </div>
                 <div role="tabpanel" class="tab-pane" id="budget">
                     This feature is under construction
