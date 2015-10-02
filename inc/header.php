@@ -4,7 +4,9 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- JQUERY -->
+        <title>Equal Pixels - Digital Agency in the Netherlands | Web Design, Mobile Apps, Online Marketing, Content </title>
+        <meta name="Equal Pixels" content="We are a full-service digital agency based in the Netherlands. We offer a range of design, development, content and marketing services for websites, mobile apps, desktop software and other digital media.">
+        <!-- JQUERY --> 
         <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
         <script type="text/javascript" src="js/jquery.mobile.custom.min.js"></script>
         <!-- DIRECTIONAL HOVER -->
@@ -24,6 +26,22 @@
         <!-- CUSTOM CSS -->
         <link href="css/style.css" rel="stylesheet" type="text/css">
         <link href="css/responsive.css" rel="stylesheet" type="text/css">
+        <!-- Google Analytics -->
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-68378290-1', 'auto');
+            ga('send', 'pageview');
+        </script>
     </head>
     <body data-spy="scroll" data-target=".nav-container" data-offset="78">
         <nav class="navbar navbar-default navbar-fixed-top">
